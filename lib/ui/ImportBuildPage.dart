@@ -16,7 +16,6 @@ class ImportBuildPageState extends State<ImportBuildPage> {
           placeholder: 'Import Build',
           textDirection: TextDirection.ltr, // Set text direction to LTR
         ),
-        const SizedBox(height: 16),
         CupertinoButton.filled(
           onPressed: () {
             // Handle button press

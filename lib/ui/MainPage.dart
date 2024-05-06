@@ -41,7 +41,7 @@ class _MyWidgetState extends State<MainPage> {
         ),
       ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           if (_defaultView) const ImportBuildPage() else const BuildPage()
         ],
